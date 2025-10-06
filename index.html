@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TYPE SPEED</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>TYPE SPEED</h1>
+    <p class="subtitle">Execute as many words as you can in 60 seconds.</p>
+
+    <div class="stats-row">
+      <div class="stat">
+        <div class="label">TIME_REMAINING:</div>
+        <div class="value" id="time">60</div>
+      </div>
+      <div class="stat">
+        <div class="label">COMPLETED:</div>
+        <div class="value" id="completed">0</div>
+      </div>
+      <div class="stat">
+        <div class="label">TOP_SCORE:</div>
+        <div class="value" id="top-score">0</div>
+      </div>
+    </div>
+
+    <div class="word-display" id="word-display">---</div>
+
+    <input type="text" id="input-word" placeholder="Type the word here" disabled autocomplete="off" />
+
+    <div class="controls">
+      <button id="initiate-btn">INITIATE</button>
+      <button id="reset-btn" style="display:none;">RESET</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
