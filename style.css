@@ -2,6 +2,7 @@
 
 :root {
   --green: #00ff99;
+  --red: #ff3366;
   --dark-bg: #010409;
   --panel-bg: #0a0f1a;
   --border: #1c2333;
@@ -238,6 +239,16 @@ button:active:not(:disabled) {
 button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+#reset-btn {
+  color: var(--red);
+  border-color: var(--red);
+}
+
+#reset-btn:hover:not(:disabled) {
+  background-color: rgba(255, 51, 102, 0.1);
+  box-shadow: 0 0 12px var(--red);
 }
 
 .match-feedback {

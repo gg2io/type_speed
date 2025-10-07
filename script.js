@@ -1,27 +1,30 @@
 const WORDS = [
-  "cat","dog","sun","run","red","blue","code","game","fast","time",
-  "apple","orange","planet","keyboard","coffee","window","random",
-  "javascript","function","variable","network","protocol", "george",
-  "challenge","execute","container","velocity","imagine","creative",
-  "monitor","display","browser","developer","typing","digital",
-  "performance","experience","optimize","accuracy","practice","terminal",
-  "algorithm","syntax","interface","module","package","resource","binary",
-  "elephant","pineapple","butterfly","adventure","serendipity","constellation",
-  "mountain","river","forest","ocean","lightning","thunder","cascade",
-  "quantum","matrix","cipher","vector","pixel","render","compile",
-  "telescope","galaxy","nebula","asteroid","meteor","comet","supernova",
-  "dragon","phoenix","unicorn","legend","mystery","enchant","sorcerer",
-  "guitar","piano","symphony","melody","rhythm","harmony","chorus",
-  "volcano","earthquake","tornado","blizzard","avalanche","tsunami","eclipse",
-  "ninja","samurai","warrior","champion","knight","guardian","sentinel",
-  "chocolate","vanilla","caramel","cinnamon","honey","maple","sugar",
-  "rocket","satellite","astronaut","spaceship","orbit","launch","mission",
-  "crystal","diamond","emerald","sapphire","ruby","amethyst","topaz",
-  "thunder","lightning","storm","tempest","hurricane","cyclone","typhoon",
-  "whisper","echo","silence","shout","murmur","roar","crescendo"
+  "algorithm","binary","code","data","execute","function","variable",
+  "interface","kernel","logic","memory","network","protocol","query",
+  "runtime","syntax","terminal","upload","vector","compiler","debug",
+  "encrypt","firewall","gateway","hardware","integer","javascript",
+  "localhost","module","namespace","object","parameter","quantum",
+  "recursive","software","thread","unicode","virtual","webhook",
+  "atom","biology","carbon","dioxide","electron","fusion","genome",
+  "hydrogen","isotope","joule","kinetic","laser","molecule","neutron",
+  "oxygen","photon","quantum","radiation","spectrum","theorem","ultraviolet",
+  "velocity","wavelength","chromosome","database","ecosystem","frequency",
+  "gradient","hypothesis","inertia","latitude","magnitude","nucleus",
+  "orbit","plasma","resonance","satellite","topology","uncertainty",
+  "vaccine","waveform","catalyst","derivative","equilibrium","formula",
+  "graphene","helix","inference","matrix","nanotechnology","oscillation",
+  "peptide","reactor","semiconductor","telescope","voltage","bandwidth",
+  "capacitor","diode","ethernet","femtosecond","gigabyte","hologram",
+  "infrared","terabyte","microchip","neutrino","peptide","quasar",
+  "refraction","synapse","transistor","ultraviolet","viscosity","nanometer",
+  "cryptocurrency","blockchain","neural","algorithm","cybersecurity","metadata",
+  "cache","router","server","pixel","render","codec","encryption",
+  "microprocessor","semiconductor","broadband","photosynthesis","evolution",
+  "entropy","catalyst","polymer","isotope","thermodynamics","relativity",
+  "calculus","integral","logarithm","probability","enzyme","metabolism"
 ];
 
-let gameDuration = 30;
+let gameDuration = 60;
 let timeLeft = gameDuration;
 let completed = 0;
 let topScore = 0;
