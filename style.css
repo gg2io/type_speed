@@ -178,6 +178,26 @@ h1 {
   align-items: center;
   justify-content: center;
   letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.word-display.correct {
+  background-color: rgba(0, 255, 153, 0.15);
+  border-color: var(--green);
+  box-shadow: 0 0 20px rgba(0, 255, 153, 0.4);
+  animation: correctBlink 0.4s ease;
+}
+
+@keyframes correctBlink {
+  0%, 100% {
+    background-color: rgba(0, 255, 153, 0.15);
+    border-color: var(--green);
+  }
+  50% {
+    background-color: rgba(0, 255, 153, 0.3);
+    border-color: var(--green);
+    box-shadow: 0 0 30px rgba(0, 255, 153, 0.6);
+  }
 }
 
 input {

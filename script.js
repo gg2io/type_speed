@@ -145,16 +145,20 @@ function checkWord(){
     completedEl.textContent = completed;
     wordInput.value = '';
     wordInput.placeholder = '...';
-    currentWordEl.textContent = pickWord();
+    
+    // Add green blink effect to word display
+    currentWordEl.classList.add('correct');
     
     // Show match confirmed feedback
     matchFeedback.textContent = 'MATCH_CONFIRMED';
     matchFeedback.classList.add('show');
     
-    // Hide feedback after a short delay
+    // Change word and remove effects after animation
     setTimeout(() => {
+      currentWordEl.textContent = pickWord();
+      currentWordEl.classList.remove('correct');
       matchFeedback.classList.remove('show');
-    }, 500);
+    }, 400);
   }
 }
 
