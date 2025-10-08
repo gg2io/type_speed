@@ -158,7 +158,7 @@ function checkWord(){
       currentWordEl.textContent = pickWord();
       currentWordEl.classList.remove('correct');
       matchFeedback.classList.remove('show');
-    }, 400);
+    }, 200);
   }
 }
 
