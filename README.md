@@ -10,7 +10,7 @@ A sleek, neon-styled typing speed test built with **HTML, CSS, and JavaScript**.
 
 ## Preview
 
-![Type Speed Screenshot](https://raw.githubusercontent.com/gg2io/type_speed/main/assets/screenshot.png)
+![Type Speed Screenshot](https://github.com/gg2io/type_speed/blob/main/assets/Screenshot.jpg)
 *Main gameplay interface — select duration, track your time, and test your speed.*
 
 ---
