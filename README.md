@@ -13,7 +13,7 @@ A sleek, neon-styled typing speed test built with **HTML, CSS, and JavaScript**.
 
 ## Preview
 
-![Type Speed Screenshot](https://github.com/user-attachments/assets/cdf2a251-b727-45e2-84ac-78ff8b47d992)
+![Type Speed Screenshot](https://github.com/user-attachments/assets/f05693c3-f3fc-417e-a5ad-b26ecd4b3e3e)
 *Main gameplay interface — select duration, track your time, and test your speed.*
 
 ---
