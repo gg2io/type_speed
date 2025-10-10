@@ -7,7 +7,7 @@
 Execute as many words as you can before time expires.  
 A sleek, neon-styled typing speed test built with **HTML, CSS, and JavaScript**.
 
-**Live Demo:** [https://typespeed.gg2.io](https://typespeed.gg2.io)  
+**Live Demo:** [typespeed.gg2.io](https://www.typespeed.gg2.io)  
 
 ---
 
