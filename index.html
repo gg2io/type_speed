@@ -7,8 +7,11 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <div class="logo">TYPE_SPEED</div>
+  </header>
+
   <div class="container">
-    <h1>TYPE_SPEED</h1>
     <p class="subtitle">Execute as many words as you can before time expires.</p>
 
     <div class="difficulty-selector" id="difficulty-selector">
@@ -20,7 +23,7 @@
         <button class="difficulty-btn" data-time="custom">CUSTOM</button>
       </div>
       <div class="custom-time-input" id="custom-time-container" style="display:none;">
-        <input type="number" id="custom-time" min="10" max="600" placeholder="Enter seconds (10-600)" />
+        <input type="number" id="custom-time" min="10" max="600" placeholder="Enter seconds (10-600)" autocomplete="off" />
       </div>
     </div>
 
@@ -41,7 +44,7 @@
 
     <div class="word-display" id="word-display">---</div>
 
-    <input type="text" id="input-word" placeholder="Type_the_word_here" disabled autocomplete="off" />
+    <input type="text" id="input-word" placeholder="Type_the_word_here" disabled autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" name="typing-input-field" />
 
     <div class="controls">
       <button id="initiate-btn">INITIATE</button>
