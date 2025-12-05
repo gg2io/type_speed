@@ -96,7 +96,8 @@ h1 {
 
 .difficulty-btn:hover {
   border-color: var(--accent);
-  background-color: var(--hover);
+  background-color: var(--text-secondary);
+  color: var(--bg);
 }
 
 .difficulty-btn.active {
