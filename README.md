@@ -5,7 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=black)
 
 Execute as many words as you can before time expires.  
-A sleek, neon-styled typing speed test built with **HTML, CSS, and JavaScript**.
+A sleek, monochrome typing speed test built with **HTML, CSS, and JavaScript**.
 
 **Live Demo:** [typespeed.gg2.io](https://www.typespeed.gg2.io)  
 
@@ -13,7 +13,7 @@ A sleek, neon-styled typing speed test built with **HTML, CSS, and JavaScript**.
 
 ## Preview
 
-![Type Speed Screenshot](https://github.com/user-attachments/assets/f05693c3-f3fc-417e-a5ad-b26ecd4b3e3e)
+![Type Speed Screenshot](https://github.com/user-attachments/assets/cfa641d7-8895-48b1-98b4-7630ccb523c0)
 *Main gameplay interface — select duration, track your time, and test your speed.*
 
 ---
